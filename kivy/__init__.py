@@ -44,7 +44,7 @@ MINOR = 11
 MICRO = 0
 RELEASE = True
 
-__version__ = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
+__version__ = '%d.%d.%d.post0' % (MAJOR, MINOR, MICRO)
 
 if not RELEASE:
     __version__ += 'rc2'
